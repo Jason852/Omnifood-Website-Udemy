@@ -196,6 +196,15 @@ header {
 /* MEALS */
 /* -----------------------------------------*/
 
+.section-features {
+    height: 70vh;
+}
+
+.section-meals {
+    height: 100vh;
+    padding: 0;
+}
+
 .meals-showcase {
     list-style: none;
     width: 100%;    
@@ -210,9 +219,16 @@ header {
 .meal-photo {
     width: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 .meal-photo img {
     width: 100%;
     height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.03);
 }
