@@ -15,8 +15,8 @@
 
 .row:before,
 .row:after {
-    content:"";
-    display:table;
+    content:" ";
+    /*display:table;===== took this out cuz it was causing table to not display....weird======*/
 }
 .row:after {
     clear:both;
