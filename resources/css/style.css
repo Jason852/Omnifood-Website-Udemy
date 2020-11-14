@@ -148,9 +148,23 @@ h2:after {
     color: #fff;
 }
 
-/* -----------------------------------------*/
-/* HEADER */
-/* -----------------------------------------*/
+/* ------- LINKS --------- */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+/*------ HEADER ------*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
@@ -201,18 +215,13 @@ header {
     border-bottom: 2px solid #e67e22; 
 }
 
-
-/* -----------------------------------------*/
-/* FEATURES */
-/* -----------------------------------------*/
+/*---------- FEATURES ------*/
 
 .section-features .long-copy {
     margin-bottom: 30px;
 }
 
-/* -----------------------------------------*/
-/* MEALS */
-/* -----------------------------------------*/
+/*------ MEALS ------ */
 
 .section-features {
     height: 75vh;
@@ -254,9 +263,7 @@ header {
 }
 
 
-/* -----------------------------------------*/
-/* HOW IT WORKS */
-/* -----------------------------------------*/
+/*------ HOW IT WORKS ------*/
 
 .section-steps {
     background-color:#f4f4f4;
@@ -300,15 +307,20 @@ header {
     margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
 .btn-app img{
     height: 50px;
     width: auto;
     margin-right: 10px;
 }
 
-/* -----------------------------------------*/
-/* CITIES */
-/* -----------------------------------------*/
+
+/*---- CITIES ----*/
+
 
 .section-cities {
     height: 65vh;
@@ -336,4 +348,16 @@ header {
     line-height: 120%;
     vertical-align: middle;
     margin-top: -5px;
+}
+
+
+
+/* -----------------------------------------*/
+/* TESTIMONIALS */
+/* -----------------------------------------*/
+
+.section-testimonials {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
 }
