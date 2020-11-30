@@ -20,9 +20,46 @@
         width: 80%;
         margin-left: 10%;
     }
-    
 
-}
+    .section-steps { height: 70vh; }
+
+    .steps-box { margin-top: 10px; }
+    .steps-box:first-child { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-step { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 60% }
+    
+    .btn-app img { margin-right: 0px;}
+
+    .icon-small { 
+        width: 20px; 
+        margin-right: 5px;    
+    }
+
+    .section-cities { height: 50vh; }
+
+    .city-feature { font-size: 90%; }
+
+    .section-plans {
+        height: 65vh;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price { font-size: 250%; }
+
+    .section-form {
+        height: 60vh;
+    }
+
+    .contact-form { width: 80% }
+
+   }
 
 /* Small phones to small tablets: from 481 to 767px */
 @media only screen and (max-width: 767px) {
