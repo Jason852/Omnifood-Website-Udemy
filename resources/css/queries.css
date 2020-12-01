@@ -34,7 +34,7 @@
     .btn-app img { margin-right: 0px;}
 
     .icon-small { 
-        width: 20px; 
+        width: 15px; 
         margin-right: 5px;    
     }
 
@@ -59,20 +59,78 @@
 
     .contact-form { width: 80% }
 
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
    }
 
 /* Small phones to small tablets: from 481 to 767px */
 @media only screen and (max-width: 767px) {
 
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
 
-    
+    .row,
+    .hero-text-box { padding: 0 4%;}
+
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav { display: none; }
+
+    h1 { font-size: 180%;}
+    h2 { font-size: 150%;}
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+    }
+
+    .app-screen { width: 40%; }
+
+    .section-features {
+        height: 105vh;
+    }
+
+    .section-steps {
+        height: 90vh;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .section-cities {
+        height: 190vh;
+    }
+
+    .section-testimonials {
+        height: 82vh;
+    }
+
+    .section-plans {
+        height: 120vh;
+    }
 
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-
-
-
-
+    section { padding: 25px 0; }
+    .contact-form: { width: 100% }
+    
+    .section-cities { height: 175vh; }
+    .section-testimonials { height: 90vh }
+    .section-form { height: 70vh; }
 }
