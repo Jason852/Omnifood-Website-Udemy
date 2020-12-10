@@ -252,6 +252,7 @@ header {
 .sticky .logo { display: none;}
 .sticky .logo-black { display: block; }
 
+
 /*---------- FEATURES ------*/
 
 .section-features .long-copy {
@@ -603,3 +604,9 @@ footer p {
 .ion-social-instagram:hover {
     color: #517fa4;
 }
+
+
+
+/* -----------------------------------------*/
+/* ANIMATIONS*/
+/* -----------------------------------------
